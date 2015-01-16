@@ -484,7 +484,7 @@ class jamminglist {
         }
         inline uint size() const {return (uint) assigned.size();};
         
-        bool operator<(const jamminglist& other);
+        bool operator<(const jamminglist& other) const;
 };
 
 class jammingtree {
